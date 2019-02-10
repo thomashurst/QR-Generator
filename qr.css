@@ -1,0 +1,47 @@
+* {
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+.container {
+    width: 45vh;
+    height: 90vh;
+    border: 1px solid #efefef;
+}
+header {
+    position: absolute;
+    line-height: 2em;
+    font-size: 2em;
+    background: #14233c;
+    width: 45vh;
+    height: 4em;
+    text-align: center;
+    color: white;
+}
+
+.section {
+ padding-top: 100px;
+}
+
+.info {
+    padding: 18px;
+}
+
+.qr {
+    border: 1px solid #efefef;
+}
+
+.button {
+    margin: 0 auto;
+    width: 35vh;
+    height: 3em;
+    text-align: center;
+    line-height: 3em;
+    letter-spacing: 0.1em;
+    border-radius: 6px;
+    background: #4ab8de;
+    color: #f7f7f7;
+}
+
+#transaction {
+    margin: 0 auto;
+    text-align: center;
+}

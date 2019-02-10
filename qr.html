@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <title>Business Account QR</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" type="text/css" media="screen" href="style/qr.css" />
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.7.1/css/all.css" integrity="sha384-fnmOCqbTlWIlj8LyTjo7mOUStjsKC4pOpQbqyi7RrhN7udi9RwhKkMHpvLbHG9Sr" crossorigin="anonymous">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+    <header>
+        <p>Wagamama</p> <!-- Merchant name -->
+    </header>
+    <section id="payMerchant" class="section">
+        <div id="merchantInfo" class="info">
+            <h2>Lunch</h2> <!-- Payment detail -->
+            <h3><i class="fas fa-map-marker-alt"></i>&nbsp;Liverpool</h3> <!-- Merchant location -->
+        </div>
+        <div id="transaction">
+        <img class="qr" src="image/qr.png"/>
+        <p>£15.85</p> <!-- Transaction Amount -->
+        <br>
+        <p>Scan this QR code to complete the transaction</p>
+        <br>
+        <div class="button">CANCEL TRANSACTION</div>
+        </div>
+    </section>
+    </div>
+</body>
+</html>
